@@ -1,0 +1,4 @@
+started
+Heavy is being initialised
+42
+done
