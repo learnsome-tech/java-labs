@@ -13,7 +13,7 @@ trap 'rm -rf "$tmp"' EXIT
 fetch() { curl -fsSL --retry 3 "$1" -o "$2" && echo "$3  $2" | sha256sum -c - >/dev/null; }
 
 export DEBIAN_FRONTEND=noninteractive
-apt-get update -q
+apt-get -o Acquire::Retries=5 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update -q
 apt-get install -y -q --no-install-recommends openjdk-21-jdk-headless bash git unzip xz-utils ca-certificates curl
 rm -rf /var/lib/apt/lists/*
 mkdir -p /opt/lab
@@ -32,3 +32,8 @@ ln -sf /opt/python/bin/python3.14 /usr/local/bin/python
 # hadolint 2.15.1
 fetch 'https://github.com/hadolint/hadolint/releases/download/v2.15.1/hadolint-linux-x86_64' /usr/local/bin/hadolint c7187db94eeeeca956519a6af171adc31453941a1e777961f6e680f697c8c507
 chmod 0755 /usr/local/bin/hadolint
+
+# The toolchains also under /opt/lab/bin, the sandbox's own PATH entry
+mkdir -p /opt/lab/bin
+ln -sf /opt/python/bin/python3.14 /opt/lab/bin/python3
+ln -sf /opt/python/bin/python3.14 /opt/lab/bin/python
