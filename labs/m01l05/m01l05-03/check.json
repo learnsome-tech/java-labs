@@ -1,0 +1,18 @@
+{
+  "lab": "m01l05-03",
+  "lesson": "m01l05",
+  "title": "Configuring a task",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "build.gradle.kts",
+  "files": [
+    "PROJECT.txt",
+    "build.gradle.kts"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

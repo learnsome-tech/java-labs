@@ -1,0 +1,19 @@
+{
+  "lab": "m02l02-03",
+  "lesson": "m02l02",
+  "title": "A generic method",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java GenericMethod.java",
+  "main": "GenericMethod.java",
+  "files": [
+    "GenericMethod.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

@@ -1,19 +1,22 @@
-# The Spring Bean Lifecycle
+# m06l04 · The Spring Bean Lifecycle
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Spring Boot Fundamentals  
-**Lesson**: `m06l04`
+Module 6: Spring Boot Fundamentals · lesson 6.4 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m06l04)
 
-## Links
+**Goal:** You can place initialization and cleanup at the correct Spring lifecycle boundary.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m06l04)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-6-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l04-02](m06l04-02/) | A lifecycle pair | Read along |
 
-- [`m06l04-02/`](m06l04-02/)
+## Check yourself
+
+- When does post construct run?
+- Who should release a resource?
+- Why are readiness events useful?
+- What does graceful shutdown protect?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

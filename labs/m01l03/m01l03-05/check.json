@@ -1,0 +1,19 @@
+{
+  "lab": "m01l03-05",
+  "lesson": "m01l03",
+  "title": "Proving when the setup runs",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Lazy.java",
+  "main": "Lazy.java",
+  "files": [
+    "Lazy.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

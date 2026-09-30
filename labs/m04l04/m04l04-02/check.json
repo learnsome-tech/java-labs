@@ -1,0 +1,19 @@
+{
+  "lab": "m04l04-02",
+  "lesson": "m04l04",
+  "title": "Submit and collect a result",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Pool.java",
+  "main": "Pool.java",
+  "files": [
+    "Pool.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

@@ -1,19 +1,22 @@
-# Serialization And JSON
+# m05l01 · Serialization And JSON
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: JSON And Testing  
-**Lesson**: `m05l01`
+Module 5: JSON And Testing · lesson 5.1 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m05l01)
 
-## Links
+**Goal:** You can explain serialization, JSON shape, and why wire contracts need explicit models.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m05l01)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-5-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l01-02](m05l01-02/) | A small JSON shaped string | Graded |
 
-- [`m05l01-02/`](m05l01-02/)
+## Check yourself
+
+- What does serialization produce?
+- Why are field names compatibility concerns?
+- What should a service decide about unknown fields?
+- Why is hand built JSON fragile?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

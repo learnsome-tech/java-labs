@@ -1,0 +1,17 @@
+{
+  "lab": "m05l05-02",
+  "lesson": "m05l05",
+  "title": "Injecting a clock",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "Expiry.java",
+  "files": [
+    "Expiry.java"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

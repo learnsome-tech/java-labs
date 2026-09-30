@@ -1,0 +1,19 @@
+{
+  "lab": "m05l01-02",
+  "lesson": "m05l01",
+  "title": "A small JSON shaped string",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java JsonShape.java",
+  "main": "JsonShape.java",
+  "files": [
+    "JsonShape.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

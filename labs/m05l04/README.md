@@ -1,19 +1,22 @@
-# Fluent Assertions With AssertJ
+# m05l04 · Fluent Assertions With AssertJ
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: JSON And Testing  
-**Lesson**: `m05l04`
+Module 5: JSON And Testing · lesson 5.4 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m05l04)
 
-## Links
+**Goal:** You can use AssertJ assertions that describe values, collections, and exceptions in readable failure messages.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m05l04)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-5-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l04-02](m05l04-02/) | A fluent collection assertion | Read along |
 
-- [`m05l04-02/`](m05l04-02/)
+## Check yourself
+
+- What does contains exactly communicate?
+- When should order be asserted?
+- Why avoid private field assertions?
+- What makes an assertion useful during diagnosis?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

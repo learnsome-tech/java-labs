@@ -1,0 +1,19 @@
+{
+  "lab": "m04l05-02",
+  "lesson": "m04l05",
+  "title": "Compose two asynchronous stages",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Async.java",
+  "main": "Async.java",
+  "files": [
+    "Async.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

@@ -1,0 +1,19 @@
+{
+  "lab": "m02l03-03",
+  "lesson": "m02l03",
+  "title": "Value equality comes for free",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java RecordEquality.java",
+  "main": "RecordEquality.java",
+  "files": [
+    "RecordEquality.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

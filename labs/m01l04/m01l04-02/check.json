@@ -1,0 +1,18 @@
+{
+  "lab": "m01l04-02",
+  "lesson": "m01l04",
+  "title": "The project object model, at the top",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "pom.xml",
+  "files": [
+    "PROJECT.txt",
+    "pom.xml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

@@ -1,20 +1,23 @@
-# Handling Nulls With Optional
+# m03l05 · Handling Nulls With Optional
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Collections, Streams, And Optional  
-**Lesson**: `m03l05`
+Module 3: Collections, Streams, And Optional · lesson 3.5 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m03l05)
 
-## Links
+**Goal:** You can use Optional to model a possibly missing result without hiding null checks inside business logic.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m03l05)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-3-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l05-02](m03l05-02/) | Map a present value | Graded |
+| [m03l05-03](m03l05-03/) | An empty lookup uses a fallback | Graded |
 
-- [`m03l05-02/`](m03l05-02/)
-- [`m03l05-03/`](m03l05-03/)
+## Check yourself
+
+- When should a lookup return Optional?
+- What is the difference between map and flat map?
+- When is or else get useful?
+- Why is get a poor default plan?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

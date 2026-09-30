@@ -1,21 +1,24 @@
-# Records And Data Classes
+# m02l03 · Records And Data Classes
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Types, Modern Syntax, And Generics  
-**Lesson**: `m02l03`
+Module 2: Types, Modern Syntax, And Generics · lesson 2.3 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m02l03)
 
-## Links
+**Goal:** You can model immutable API data with records and know when a full class is the better choice.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m02l03)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-2-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m02l03-02](m02l03-02/) | The compact response model | Read along |
+| [m02l03-03](m02l03-03/) | Value equality comes for free | Graded |
+| [m02l03-05](m02l03-05/) | A record can derive a view | Read along |
 
-- [`m02l03-02/`](m02l03-02/)
-- [`m02l03-03/`](m02l03-03/)
-- [`m02l03-05/`](m02l03-05/)
+## Check yourself
+
+- What members does a record compiler provide?
+- What does shallow immutability mean?
+- When is a regular class clearer than a record?
+- Where should a record validate its components?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

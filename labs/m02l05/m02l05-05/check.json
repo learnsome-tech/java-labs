@@ -1,0 +1,17 @@
+{
+  "lab": "m02l05-05",
+  "lesson": "m02l05",
+  "title": "Combining a pattern with a text block",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "ErrorBody.java",
+  "files": [
+    "ErrorBody.java"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

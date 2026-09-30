@@ -1,0 +1,19 @@
+{
+  "lab": "m04l02-02",
+  "lesson": "m04l02",
+  "title": "Translate at a service boundary",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Translate.java",
+  "main": "Translate.java",
+  "files": [
+    "Translate.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

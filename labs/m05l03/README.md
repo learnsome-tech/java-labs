@@ -1,19 +1,22 @@
-# Testing Basics With JUnit 5
+# m05l03 · Testing Basics With JUnit 5
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: JSON And Testing  
-**Lesson**: `m05l03`
+Module 5: JSON And Testing · lesson 5.3 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m05l03)
 
-## Links
+**Goal:** You can structure a JUnit five test around a behavior and read failures as feedback about a contract.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m05l03)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-5-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l03-02](m05l03-02/) | A JUnit five test shape | Read along |
 
-- [`m05l03-02/`](m05l03-02/)
+## Check yourself
+
+- What are arrange, act, and assert?
+- Why should a unit test be deterministic?
+- What makes a test discoverable in JUnit five?
+- How can a test prove its assertion matters?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

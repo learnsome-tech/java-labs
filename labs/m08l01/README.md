@@ -1,19 +1,22 @@
-# Persistence With JPA And Hibernate
+# m08l01 · Persistence With JPA And Hibernate
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Persistence And Integration Testing  
-**Lesson**: `m08l01`
+Module 8: Persistence And Integration Testing · lesson 8.1 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m08l01)
 
-## Links
+**Goal:** You can map a domain record to a JPA entity and understand what Hibernate manages for you.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m08l01)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-8-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m08l01-02](m08l01-02/) | A small JPA entity | Read along |
 
-- [`m08l01-02/`](m08l01-02/)
+## Check yourself
+
+- What does an entity identifier provide?
+- Why does JPA need a no argument constructor?
+- What does a transaction protect?
+- Why is an entity not always a response model?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

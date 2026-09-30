@@ -1,0 +1,19 @@
+{
+  "lab": "m02l04-05",
+  "lesson": "m02l04",
+  "title": "A complete switch returns a value",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Traffic.java",
+  "main": "Traffic.java",
+  "files": [
+    "Traffic.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

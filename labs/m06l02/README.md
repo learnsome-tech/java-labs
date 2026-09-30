@@ -1,19 +1,22 @@
-# Spring Boot Auto Configuration
+# m06l02 · Spring Boot Auto Configuration
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Spring Boot Fundamentals  
-**Lesson**: `m06l02`
+Module 6: Spring Boot Fundamentals · lesson 6.2 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m06l02)
 
-## Links
+**Goal:** You can describe how Spring Boot selects infrastructure from the classpath and explicit application settings.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m06l02)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-6-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l02-03](m06l02-03/) | An explicit application entry point | Read along |
 
-- [`m06l02-03/`](m06l02-03/)
+## Check yourself
+
+- What signals a Boot capability?
+- When does auto configuration back away?
+- What can a condition depend on?
+- Where can you inspect condition decisions?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

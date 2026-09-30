@@ -1,19 +1,22 @@
-# Tying It All Together
+# m08l05 · Tying It All Together
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Persistence And Integration Testing  
-**Lesson**: `m08l05`
+Module 8: Persistence And Integration Testing · lesson 8.5 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m08l05)
 
-## Links
+**Goal:** You can trace an API request through controller, service, repository, database, and tested response.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m08l05)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-8-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m08l05-02](m08l05-02/) | The service path in one view | Read along |
 
-- [`m08l05-02/`](m08l05-02/)
+## Check yourself
+
+- What belongs in the service layer?
+- Which test protects migrations?
+- Why layer tests by risk?
+- Why promote the tested artifact?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

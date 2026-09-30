@@ -1,19 +1,22 @@
-# Controllers And Routing
+# m07l01 · Controllers And Routing
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Building APIs With Spring Boot  
-**Lesson**: `m07l01`
+Module 7: Building APIs With Spring Boot · lesson 7.1 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m07l01)
 
-## Links
+**Goal:** You can map HTTP requests to Spring controllers and keep transport code separate from application services.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m07l01)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-7-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l01-02](m07l01-02/) | A mapped controller | Read along |
 
-- [`m07l01-02/`](m07l01-02/)
+## Check yourself
+
+- What belongs in a controller?
+- What do mapping annotations define?
+- Why keep services outside controllers?
+- Why are paths public API?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

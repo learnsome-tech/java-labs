@@ -1,0 +1,19 @@
+{
+  "lab": "m02l05-02",
+  "lesson": "m02l05",
+  "title": "Pattern matching narrows a value",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Describe.java",
+  "main": "Describe.java",
+  "files": [
+    "Describe.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

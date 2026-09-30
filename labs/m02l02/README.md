@@ -1,21 +1,24 @@
-# Generics Fundamentals
+# m02l02 · Generics Fundamentals
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Types, Modern Syntax, And Generics  
-**Lesson**: `m02l02`
+Module 2: Types, Modern Syntax, And Generics · lesson 2.2 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m02l02)
 
-## Links
+**Goal:** You can define and use generic classes and methods, read type parameters, and explain why generic collections prevent casts.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m02l02)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-2-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m02l02-02](m02l02-02/) | A generic box | Read along |
+| [m02l02-03](m02l02-03/) | A generic method | Graded |
+| [m02l02-05](m02l02-05/) | A bounded choice | Read along |
 
-- [`m02l02-02/`](m02l02-02/)
-- [`m02l02-03/`](m02l02-03/)
-- [`m02l02-05/`](m02l02-05/)
+## Check yourself
+
+- What does a type parameter represent?
+- Why do generics reduce casts?
+- What does a bound permit an algorithm to call?
+- Why is writing through an unknown wildcard restricted?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

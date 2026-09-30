@@ -1,19 +1,22 @@
-# Validation
+# m07l03 · Validation
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Building APIs With Spring Boot  
-**Lesson**: `m07l03`
+Module 7: Building APIs With Spring Boot · lesson 7.3 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m07l03)
 
-## Links
+**Goal:** You can validate request models with Jakarta constraints and return useful field errors to clients.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m07l03)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-7-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l03-02](m07l03-02/) | A validated request | Read along |
 
-- [`m07l03-02/`](m07l03-02/)
+## Check yourself
+
+- What belongs in a validation annotation?
+- Which rules remain in a service?
+- What should a field error contain?
+- Why avoid stack traces in responses?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

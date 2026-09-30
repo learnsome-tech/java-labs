@@ -1,0 +1,20 @@
+{
+  "lab": "m01l03-02",
+  "lesson": "m01l03",
+  "title": "One source file, one class file",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Greeter.java",
+  "main": "Greeter.java",
+  "files": [
+    "Greeter.java",
+    "PROJECT.txt"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

@@ -1,20 +1,23 @@
-# Generics And Collections
+# m03l02 · Generics And Collections
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Collections, Streams, And Optional  
-**Lesson**: `m03l02`
+Module 3: Collections, Streams, And Optional · lesson 3.2 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m03l02)
 
-## Links
+**Goal:** You can read wildcard collection types and write methods that safely consume or produce generic values.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m03l02)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-3-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l02-02](m03l02-02/) | Reading from a producer | Graded |
+| [m03l02-03](m03l02-03/) | Writing to a consumer | Graded |
 
-- [`m03l02-02/`](m03l02-02/)
-- [`m03l02-03/`](m03l02-03/)
+## Check yourself
+
+- Why can a producer list not accept a new value?
+- What can a consumer super list safely add?
+- What does diamond syntax infer?
+- Why are raw collections risky?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

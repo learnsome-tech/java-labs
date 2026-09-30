@@ -1,0 +1,19 @@
+{
+  "lab": "m03l03-02",
+  "lesson": "m03l03",
+  "title": "Filter then map",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Names.java",
+  "main": "Names.java",
+  "files": [
+    "Names.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

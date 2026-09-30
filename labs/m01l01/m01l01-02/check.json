@@ -1,0 +1,20 @@
+{
+  "lab": "m01l01-02",
+  "lesson": "m01l01",
+  "title": "The smallest program that does anything",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Hello.java",
+  "main": "Hello.java",
+  "files": [
+    "Hello.java",
+    "PROJECT.txt"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

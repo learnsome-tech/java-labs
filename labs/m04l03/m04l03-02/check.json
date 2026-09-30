@@ -1,0 +1,19 @@
+{
+  "lab": "m04l03-02",
+  "lesson": "m04l03",
+  "title": "Start and join one worker",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Worker.java",
+  "main": "Worker.java",
+  "files": [
+    "Worker.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

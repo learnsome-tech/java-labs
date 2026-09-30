@@ -1,0 +1,19 @@
+{
+  "lab": "m01l02-04",
+  "lesson": "m01l02",
+  "title": "Asking the running machine its own version",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java WhichJava.java",
+  "main": "WhichJava.java",
+  "files": [
+    "WhichJava.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

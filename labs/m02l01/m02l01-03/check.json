@@ -1,0 +1,19 @@
+{
+  "lab": "m02l01-03",
+  "lesson": "m02l01",
+  "title": "Boxing a value into an object",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Boxing.java",
+  "main": "Boxing.java",
+  "files": [
+    "Boxing.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

@@ -1,19 +1,22 @@
-# Dependency Injection And The IoC Container
+# m06l01 · Dependency Injection And The IoC Container
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Spring Boot Fundamentals  
-**Lesson**: `m06l01`
+Module 6: Spring Boot Fundamentals · lesson 6.1 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m06l01)
 
-## Links
+**Goal:** You can explain inversion of control and define constructor injected Spring beans.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m06l01)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-6-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l01-02](m06l01-02/) | A constructor injected service | Read along |
 
-- [`m06l01-02/`](m06l01-02/)
+## Check yourself
+
+- What does inversion of control mean?
+- Why prefer constructor injection?
+- What is the default Spring bean scope?
+- Why is mutable state risky in a singleton?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

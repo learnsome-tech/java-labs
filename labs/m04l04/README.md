@@ -1,19 +1,22 @@
-# The ExecutorService
+# m04l04 · The ExecutorService
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Exceptions And Concurrency  
-**Lesson**: `m04l04`
+Module 4: Exceptions And Concurrency · lesson 4.4 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m04l04)
 
-## Links
+**Goal:** You can submit tasks to an executor, collect futures, and shut the pool down without leaking worker threads.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m04l04)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-4-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l04-02](m04l04-02/) | Submit and collect a result | Graded |
 
-- [`m04l04-02/`](m04l04-02/)
+## Check yourself
+
+- What does a future represent?
+- Why can an unbounded queue hurt a service?
+- When should get have a timeout?
+- Who should shut an executor down?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

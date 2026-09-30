@@ -1,19 +1,22 @@
-# Checked Versus Unchecked Exceptions
+# m04l01 · Checked Versus Unchecked Exceptions
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Exceptions And Concurrency  
-**Lesson**: `m04l01`
+Module 4: Exceptions And Concurrency · lesson 4.1 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m04l01)
 
-## Links
+**Goal:** You can distinguish checked and unchecked exceptions and choose a boundary where each failure should be handled.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m04l01)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-4-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l01-02](m04l01-02/) | Catch a checked failure | Graded |
 
-- [`m04l01-02/`](m04l01-02/)
+## Check yourself
+
+- What does a checked exception add to a method contract?
+- When is an unchecked exception useful?
+- Where should recovery happen?
+- Why preserve the original cause?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

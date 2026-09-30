@@ -1,19 +1,22 @@
-# Concurrency Basics: Threads And Runnable
+# m04l03 · Concurrency Basics: Threads And Runnable
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Exceptions And Concurrency  
-**Lesson**: `m04l03`
+Module 4: Exceptions And Concurrency · lesson 4.3 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m04l03)
 
-## Links
+**Goal:** You can start a thread safely, describe shared state risks, and join work before returning a result.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m04l03)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-4-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l03-02](m04l03-02/) | Start and join one worker | Graded |
 
-- [`m04l03-02/`](m04l03-02/)
+## Check yourself
+
+- What is the difference between start and run?
+- Why does join matter?
+- What makes a race possible?
+- Why prefer an executor for repeated work?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

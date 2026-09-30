@@ -1,19 +1,22 @@
-# Designing Testable Code
+# m05l05 · Designing Testable Code
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: JSON And Testing  
-**Lesson**: `m05l05`
+Module 5: JSON And Testing · lesson 5.5 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m05l05)
 
-## Links
+**Goal:** You can separate side effects from decisions and inject collaborators so unit tests stay fast and focused.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m05l05)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-5-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l05-02](m05l05-02/) | Injecting a clock | Read along |
 
-- [`m05l05-02/`](m05l05-02/)
+## Check yourself
+
+- Why inject a clock?
+- What belongs at an integration boundary?
+- What should a fake preserve?
+- How does constructor injection help a test?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

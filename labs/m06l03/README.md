@@ -1,19 +1,22 @@
-# Configuration And Profiles
+# m06l03 · Configuration And Profiles
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Spring Boot Fundamentals  
-**Lesson**: `m06l03`
+Module 6: Spring Boot Fundamentals · lesson 6.3 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m06l03)
 
-## Links
+**Goal:** You can bind typed configuration and select environment specific profiles without changing application code.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m06l03)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-6-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l03-02](m06l03-02/) | Typed service settings | Read along |
 
-- [`m06l03-02/`](m06l03-02/)
+## Check yourself
+
+- Why bind properties into a type?
+- What should happen to invalid configuration?
+- How do profiles differ from feature flags?
+- Where should secrets live?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

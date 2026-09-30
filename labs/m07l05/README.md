@@ -1,19 +1,22 @@
-# Implementing An OpenAPI Contract
+# m07l05 · Implementing An OpenAPI Contract
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Building APIs With Spring Boot  
-**Lesson**: `m07l05`
+Module 7: Building APIs With Spring Boot · lesson 7.5 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m07l05)
 
-## Links
+**Goal:** You can implement a documented OpenAPI route with matching models, status codes, and error responses.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m07l05)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-7-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l05-02](m07l05-02/) | A route matching the contract | Read along |
 
-- [`m07l05-02/`](m07l05-02/)
+## Check yourself
+
+- What does an OpenAPI schema describe?
+- Why document error responses?
+- What should a contract test assert?
+- How can generated clients reveal drift?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

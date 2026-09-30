@@ -1,20 +1,23 @@
-# Advanced Stream Operations
+# m03l04 · Advanced Stream Operations
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Collections, Streams, And Optional  
-**Lesson**: `m03l04`
+Module 3: Collections, Streams, And Optional · lesson 3.4 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m03l04)
 
-## Links
+**Goal:** You can sort, flatten, group, and short circuit stream pipelines while keeping their cost visible.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m03l04)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-3-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l04-02](m03l04-02/) | Flatten and group | Graded |
+| [m03l04-03](m03l04-03/) | Stop when a match appears | Graded |
 
-- [`m03l04-02/`](m03l04-02/)
-- [`m03l04-03/`](m03l04-03/)
+## Check yourself
+
+- What does flat map change?
+- Why can any match stop early?
+- Which operations retain state?
+- Why is parallel not the default?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

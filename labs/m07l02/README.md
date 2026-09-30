@@ -1,19 +1,22 @@
-# Reading The Request
+# m07l02 · Reading The Request
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Building APIs With Spring Boot  
-**Lesson**: `m07l02`
+Module 7: Building APIs With Spring Boot · lesson 7.2 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m07l02)
 
-## Links
+**Goal:** You can bind path variables, query parameters, headers, and request bodies to typed controller arguments.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m07l02)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-7-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l02-02](m07l02-02/) | Binding request data | Read along |
 
-- [`m07l02-02/`](m07l02-02/)
+## Check yourself
+
+- What belongs in a path variable?
+- Why is conversion not validation?
+- How should absent headers be handled?
+- Why use explicit body models?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

@@ -1,0 +1,19 @@
+{
+  "lab": "m06l05-02",
+  "lesson": "m06l05",
+  "title": "A two stage Dockerfile",
+  "mode": "checker",
+  "runner": "hadolint",
+  "command": "hadolint Containerfile",
+  "main": "Containerfile",
+  "files": [
+    "Containerfile"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "hadolint"
+  ],
+  "note": null
+}

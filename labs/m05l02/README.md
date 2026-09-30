@@ -1,19 +1,22 @@
-# Working With Jackson
+# m05l02 · Working With Jackson
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: JSON And Testing  
-**Lesson**: `m05l02`
+Module 5: JSON And Testing · lesson 5.2 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m05l02)
 
-## Links
+**Goal:** You can configure Jackson for records, read JSON into types, and keep serialization failures at an API boundary.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m05l02)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-5-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l02-02](m05l02-02/) | A Jackson record model | Read along |
 
-- [`m05l02-02/`](m05l02-02/)
+## Check yourself
+
+- What does an object mapper own?
+- Why share one mapper configuration?
+- When should unknown fields be rejected?
+- Where should mapping failures be handled?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

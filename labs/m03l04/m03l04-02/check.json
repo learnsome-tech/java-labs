@@ -1,0 +1,19 @@
+{
+  "lab": "m03l04-02",
+  "lesson": "m03l04",
+  "title": "Flatten and group",
+  "mode": "graded",
+  "runner": "java",
+  "command": "java Orders.java",
+  "main": "Orders.java",
+  "files": [
+    "Orders.java"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "java"
+  ],
+  "note": null
+}

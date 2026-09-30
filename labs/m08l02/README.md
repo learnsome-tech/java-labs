@@ -1,19 +1,22 @@
-# Spring Data Repositories
+# m08l02 · Spring Data Repositories
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Persistence And Integration Testing  
-**Lesson**: `m08l02`
+Module 8: Persistence And Integration Testing · lesson 8.2 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m08l02)
 
-## Links
+**Goal:** You can define a repository interface, choose query methods deliberately, and keep persistence details out of controllers.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m08l02)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-8-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m08l02-02](m08l02-02/) | A typed repository | Read along |
 
-- [`m08l02-02/`](m08l02-02/)
+## Check yourself
+
+- What does Spring Data generate?
+- When is a custom query clearer?
+- Why paginate collection routes?
+- Where should entities become response models?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

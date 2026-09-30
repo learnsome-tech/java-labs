@@ -1,19 +1,22 @@
-# Exception Handling To Problem Details
+# m07l04 · Exception Handling To Problem Details
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Building APIs With Spring Boot  
-**Lesson**: `m07l04`
+Module 7: Building APIs With Spring Boot · lesson 7.4 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m07l04)
 
-## Links
+**Goal:** You can map application failures to consistent RFC problem detail responses with controller advice.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m07l04)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-7-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l04-02](m07l04-02/) | A problem detail handler | Read along |
 
-- [`m07l04-02/`](m07l04-02/)
+## Check yourself
+
+- What does controller advice centralize?
+- Which status represents a missing resource?
+- Why keep stack traces out of responses?
+- What helps connect a response to logs?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

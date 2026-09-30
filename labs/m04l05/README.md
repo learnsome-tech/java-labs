@@ -1,19 +1,22 @@
-# Async With CompletableFuture
+# m04l05 · Async With CompletableFuture
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Exceptions And Concurrency  
-**Lesson**: `m04l05`
+Module 4: Exceptions And Concurrency · lesson 4.5 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m04l05)
 
-## Links
+**Goal:** You can compose asynchronous stages, combine results, and handle failures with CompletableFuture.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m04l05)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-4-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l05-02](m04l05-02/) | Compose two asynchronous stages | Graded |
 
-- [`m04l05-02/`](m04l05-02/)
+## Check yourself
+
+- What does then apply do?
+- How does a failure move through a chain?
+- Why choose an executor explicitly for blocking work?
+- Where should join be called?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)

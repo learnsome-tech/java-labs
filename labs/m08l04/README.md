@@ -1,19 +1,22 @@
-# Database Integration With Testcontainers
+# m08l04 · Database Integration With Testcontainers
 
-**Course**: [Modern Java: Virtual Threads & High-Throughput Services](https://learnsome.tech/courses/java-course)  
-**Module**: Persistence And Integration Testing  
-**Lesson**: `m08l04`
+Module 8: Persistence And Integration Testing · lesson 8.4 · Pro · [Open the lesson](https://learnsome.tech/learn/java-course/m08l04)
 
-## Links
+**Goal:** You can run repository tests against a disposable real database and keep schema assumptions visible.
 
-- [Watch lesson](https://learnsome.tech/courses/java-course/watch?lesson=m08l04)
-- [Handbook](https://learnsome.tech/courses/java-course/book#lesson-8-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m08l04-02](m08l04-02/) | A database container test | Read along |
 
-- [`m08l04-02/`](m08l04-02/)
+## Check yourself
+
+- What can a database mock miss?
+- Why apply migrations in the test?
+- How do mapped ports help?
+- Why separate slow integration tests?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Modern Java: Virtual Threads & High-Throughput Services on LearnSome.tech](https://learnsome.tech/courses/java-course)
