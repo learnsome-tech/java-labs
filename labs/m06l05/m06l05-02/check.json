@@ -15,5 +15,18 @@
   "requires": [
     "hadolint"
   ],
+  "tool": "hadolint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "hadolint Containerfile"
+    },
+    {
+      "id": "strict",
+      "label": "Lint strictly",
+      "line": "hadolint --failure-threshold info Containerfile"
+    }
+  ],
   "note": null
 }

@@ -20,6 +20,9 @@ In the lesson: The first stage has the development kit and runs the Maven wrappe
 2. Read `Containerfile`.
 3. Edit `Containerfile` and check it: `hadolint Containerfile`.
 4. Check it from the repository root: `./check m06l05-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m06l05-02 --command=<id>`:
+   - `lint` (Lint): `hadolint Containerfile`
+   - `strict` (Lint strictly): `hadolint --failure-threshold info Containerfile`
 
 ## How to check
 
